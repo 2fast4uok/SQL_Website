@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SQL Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="">
+  <!-- Navbar -->
+  <div class="max-w-7xl mx-auto">
+    <header class="flex bg-lime-100/50 justify-between items-center">
+      <a href="#"><img src="src/images/logo-white.png" width="150" height="150" alt="Logo Image"></a>
+      <nav class="flex justify-between w-3/6">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Cards</a>
+        <a href="#">Some Stuff</a>
+      </nav>
+      <div class="flex">
+        <a href="#"><button class="px-6 py-3 border border-green-800">Sign Up</button></a>
+        <a href="#"><button class="px-6 py-3 border bg-green-800 hover:bg-green-500">Log In</button></a>
+      </div>
+    </header>
+  </div>
+  <div class="w-11/12 mx-auto">
+    <div class="grid grid-cols-7">
+      <div class="space-y-6">
+        <a href="index.html">SQL Tutorial</a>
+        <ul>
+          <li>
+            <a href="intro.html">
+              <p>Basic SQL</p>
+            </a>
+          </li>
+        </ul>
+          <ul>
+            <a href="intro.html">
+              <li>
+                <p class="py-2">Introduction to SQL</p>
+              </li>
+            </a>
+            <a href="selectquery.html">
+              <li>
+                <p class="py-2">SELECT Query</p>
+              </li>
+            </a>
+            <a href="limitquery.html">
+              <li>
+                <p class="py-2">LIMIT Query</p>
+              </li>
+            </a>
+            <a href="wherequery.html">
+              <li>
+                <p class="py-2">WHERE Query</p>
+              </li>
+            </a>
+            <a href="comparisonoperators.html">
+              <li>
+                <p class="py-2">Comparison Operators</p>
+              </li>
+            </a>
+            <a href="logicaloperators.html">
+              <li>
+                <p class="py-2">Logical Operators</p>
+              </li>
+            </a>
+            <a href="likeoperators.html">
+              <li>
+                <p class="py-2">LIKE Operators</p>
+              </li>
+            </a>
+            <a href="inquery.html">
+              <li>
+                <p class="py-2">IN Query</p>
+              </li>
+            </a>
+            <a href="betweenoperators.html">
+              <li>
+                <p class="py-2">BETWEEN Operators</p>
+              </li>
+            </a>
+            <a href="isnulloperator.html">
+              <li>
+                <p class="py-2">IS NULL Operator</p>
+              </li>
+            </a>
+            <a href="andoperators.html">
+              <li>
+                <p class="py-2">AND Operators</p>
+              </li>
+            </a>
+            <a href="oroperators.html">
+              <li>
+                <p class="py-2">OR Operators</p>
+              </li>
+            </a>
+            <a href="notoperators.html">
+              <li>
+                <p class="py-2">NOT Operators</p>
+              </li>
+            </a>
+            <a href="orderby.html">
+              <li>
+                <p class="py-2">ORDER BY</p>
+              </li>
+            </a>
+          </ul>
+        </div>
+      <div class="col-span-3 col-start-3">
+        <h1 class="text-7xl">Introduction to SQL</h1>
+        <div>
+          In this tutorial, you will learn about SQL queries and their equivalent Ecto queries. Both are used to interact with the database.
+SQL
+
+SQL stands for Structured Query Language. It is a language to interact with the database.
+Ecto
+
+Ecto is a elixir library which is a wrapper around the database in elixir. Ecto has 4 main components. Ecto.schema, Ecto.Repo, Ecto.Query, Ecto.Changeset. These 4 are used to do things in Database. Ecto.Repo is used to create, delete, update, to do queries in database. Ecto.Query used to do queries from the Ecto.Repo.
+
+Every SQL query has it's own Ecto query and vice versa. Let's see some of the queries with their description.
+Database
+
+I took this database from https://www.sqltutorial.org/sql-sample-database/ this link.
+
+I named my database as sql_ecto_repo. It has 7 tables.
+
+This database manages the HR data of a small business.
+
+    The employees table stores the data of employees.
+    The jobs table stores the job data including job title and salary range.
+    The departments table stores department data.
+    The dependents table stores the employee’s dependents.
+    The locations table stores the location of the departments of the company.
+    The countries table stores the data of countries where the company is doing business.
+    The regions table stores the data of regions such as Asia, Europe, America, and the Middle East and Africa. The countries are grouped into regions.
+
+The following diagram explains the tables in the sql_ecto_repo database.
+
+<img src="https://user-images.githubusercontent.com/78719077/280460706-3f1e6e08-2daf-4083-9beb-2d2256777314.png" alt="">
+
+Number of records in each tables:
+
+    employees - 40
+    dependents - 30
+    departments - 11
+    jobs - 11
+    locations - 7
+    countries - 25
+    regions - 4
+
+Now let's jump into the queries.
+Schema
+
+You can go through the below GitHub repo to see the schema structure. https://github.com/sangeethailango/SQL-Ecto-learning/tree/main/lib/sql_ecto/hr
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- <div class="grid grid-cols-3 gap-20">
+    <main>
+      <div>
+        <div>
+          <div>
+            <a href="">SQL Tutorial</a>
+            <ul>
+              <li>
+                <a href="">
+                  <p>Basic SQL</p>
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <a href="">
+                <li>
+                  <p>Introduction to SQL</p>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <p>SELECT Query</p>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <p>LIMIT Query</p>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <p>WHERE Query</p>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <p>Comparison Operators</p>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <p>Logical Operators</p>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <p>LIKE Operators</p>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <p>IN Query</p>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <p>BETWEEN Operators</p>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <p>IS NULL Operator</p>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <p>AND Operators</p>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <p>OR Operators</p>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <p>NOT Operators</p>
+                </li>
+              </a>
+              <a href="">
+                <li>
+                  <p>ORDER BY</p>
+                </li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="">
+            <h1 class="text-7xl">Introduction to SQL</h1>
+          </div>
+        </div>
+        <div>
+        </div>
+      </div>
+    </main>
+  </div> -->
+</body>
+
+</html>
