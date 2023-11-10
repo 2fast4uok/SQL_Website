@@ -1,12 +1,13 @@
-In this tutorial, you will learn about SQL queries and their equivalent Ecto queries. Both are used to interact with the database. 
+<div style="font-size: 20px;">
+In this tutorial, you will learn about SQL queries and their equivalent Ecto queries. Both are used to interact with the database.
 
 ### SQL
 
-SQL stands for Structured Query Language. It is a language to interact with the database. 
+SQL stands for Structured Query Language. It is a language to interact with the database.
 
 ### Ecto
 
-Ecto is a elixir library which is a wrapper around the database in elixir.  Ecto has 4 main components. `Ecto.schema`, `Ecto.Repo`, `Ecto.Query`, `Ecto.Changeset`. These 4 are used to do things in Database. `Ecto.Repo` is used to create, delete, update, to do queries in database. `Ecto.Query` used to do queries from the `Ecto.Repo`. 
+Ecto is a elixir library which is a wrapper around the database in elixir.  Ecto has 4 main components. `Ecto.schema`, `Ecto.Repo`, `Ecto.Query`, `Ecto.Changeset`. These 4 are used to do things in Database. `Ecto.Repo` is used to create, delete, update, to do queries in database. `Ecto.Query` used to do queries from the `Ecto.Repo`.
 
 Every SQL query has it's own Ecto query and vice versa. Let's see some of the queries with their description.
 
@@ -28,8 +29,7 @@ This database manages the HR data of a small business.
 
 The following diagram explains the tables in the sql_ecto_repo database.
 
-![[Screenshot from 2023-10-31 15-05-55.png]]
-
+![img](SQL_Ecto_Content/SQL%20stuff/SQL-Ecto-Basics/Screenshot%20from%202023-11-10%2013-50-41.png)
 
 Number of records in each tables:
 
@@ -48,4 +48,4 @@ Now let's jump into the queries.
 
 You can go through the below GitHub repo to see the schema structure. 
 https://github.com/sangeethailango/SQL-Ecto-learning/tree/main/lib/sql_ecto/hr
-
+</div>
