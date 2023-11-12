@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SQL Website</title>
+  <title>SQL Introduction</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -17,10 +17,11 @@
       </header>
     </div>
   </div>
-  <div class="w-11/12 mx-auto mt-20">
-    <div class="grid grid-cols-7">
-      <div class="">
-        <ul class="">
+  <!-- Sidebar -->
+  <div class="mx-auto mt-20 px-4 lg:px-0">
+    <div class="grid lg:grid-cols-7">
+      <div class="hidden lg:flex justify-end pt-12">
+        <ul>
           <a href="index.html">
             <li>
               <p class="transition-all py-2 text-3xl font-medium hover:bg-sky-300 focus:bg-sky-500 px-4 rounded-md">SQL
@@ -119,9 +120,11 @@
           </a>
         </ul>
       </div>
-      <div class="col-span-3 col-start-3 font">
-        <h1 class="text-7xl text-blue-900 h-28">Introduction to SQL</h1>
+      <!-- Page Title -->
+      <div class="col-span-3 col-start-3">
         <div>
+          <h1 class="md:text-7xl text-blue-900 h-fit text-5xl pb-12">Introduction to SQL</h1>
+          <!-- Page Content -->
           <script
             src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
 
@@ -129,6 +132,7 @@
 
           <zero-md src="SQL_Ecto_Content/SQL stuff/SQL-Ecto-Basics/Introduction.md"></zero-md>
         </div>
+        <!-- Next Page Button -->
         <div class="mt-10 border-t-2 border-gray-900 pt-4">
           <div class="relative mb-28"><a href="" class="absolute flex text-right right-0">
               <div class="pr-4">
@@ -143,6 +147,7 @@
                 </g>
               </svg></div></a>
         </div>
+        <!-- Footer -->
         <footer>
           <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
             <p class="mt-8 text-center items-center text-base text-gray-400">

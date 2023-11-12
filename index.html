@@ -4,254 +4,281 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SQL Website</title>
+  <title>SQL2Ecto</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="bg-sky-100">
   <!-- Navbar -->
   <div class="bg-sky-100 shadow h-28 flex items-center justify-center">
-    <div class="max-w-7xl">
-      <header class="flex justify-between items-center">
-        <a href="#"><img src="src/images/logo-no-background.png" alt="SQL2Ecto" width="300" height="300"></a>
-      </header>
-    </div>
+    <header class="flex justify-between items-center">
+      <a href="#"><img src="src/images/logo-no-background.png" alt="SQL2Ecto" width="300" height="300"></a>
+    </header>
   </div>
-  <div class="bg-sky-100 xl:max-w-6xl lg:max-w-4xl md:max-w-2xl sm:max-w-xl mx-auto">
+  <!-- Full Page Size -->
+  <div class="xl:max-w-6xl lg:max-w-4xl md:max-w-2xl  mx-auto px-4 md:px-0">
     <!-- Hero Section -->
-    <div class="grid grid-cols-2 mt-28">
+    <div class="grid md:grid-cols-2 mt-28">
       <div class="space-y-8">
-        <h1 class="sm:text-7xl text-5xl w-full text-blue-900">Welcome to the SQL Tutorial</h1>
-        <h2 class="text-2xl">Learn to answer questions with data using SQL.
-          <br>
+        <h1 class="md:text-7xl text-5xl text-blue-900">Welcome to the SQL Tutorial</h1>
+        <h2 class="text-2xl xl:pr-7">Learn to answer questions with data using SQL.
           No coding experience necessary.
         </h2>
         <a href="intro.html"><button
             class="px-8 py-3 mt-10 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-2 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 dark:text-white rounded">Get
             Started</button></a>
       </div>
-      <div class="sm:grid hidden justify-items-end">
+      <div class="md:grid hidden justify-items-end">
         <img src="src/images/t8dy825w7cgnjde7brq3-removebg.png" width="270" height="270">
       </div>
     </div>
     <!-- Basic SQL -->
-    <div class="">
-      <div class="mt-28 mb-10">
-        <h2 id="basic" class="text-center text-5xl text-blue-900">
-          Basic SQL
-        </h2>
-      </div>
-      <ul class="grid grid-cols-3 gap-x-5 gap-y-10">
-        <li>
-          <a href="intro.html" target="_blank" class="group">
-            <div class="bg-white rounded-xl p-8 shadow group-hover:bg-blue-800 transition-all">
-              <p class="text-blue-950 group-hover:text-white pb-4">Introduction</p>
-              <h3 class="text-blue-900 text-3xl h-24 group-hover:text-white">
-                Introduction to SQL
-              </h3>
-              <p class="group-hover:text-white text-lg">Learn to answer questions with data to solve challenging
-                problems.</p>
-              <p class="text-lg font-medium pt-4 group-hover:text-white">Start Now</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="selectquery.html" target="_blank" class="group">
-            <div class="bg-white rounded-xl p-8 shadow group-hover:bg-blue-800 transition-all">
-              <p class="text-blue-950 group-hover:text-white pb-4">
-                Lesson 1
-              </p>
-              <h3 class="text-blue-900 text-3xl h-24 group-hover:text-white">
-                SELECT Query
-              </h3>
-              <p class="text-lg group-hover:text-white">Learn to answer questions with data to solve challenging
-                problems.</p>
-              <p class="text-lg group-hover:text-white font-medium pt-4">Start Now</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="limitquery.html" target="_blank" class="group">
-            <div class="bg-white rounded-xl p-8 shadow group-hover:bg-blue-800 transition-all">
-              <p class="text-blue-950 group-hover:text-white pb-4">
-                Lesson 2
-              </p>
-              <h3 class="text-blue-900 text-3xl h-24 group-hover:text-white">
-                LIMIT Query
-              </h3>
-              <p class="text-lg group-hover:text-white">Learn to answer questions with data to solve challenging
-                problems.</p>
-              <p class="text-lg group-hover:text-white font-medium pt-4">Start Now</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="wherequery.html" target="_blank" class="group">
-            <div class="bg-white rounded-xl p-8 shadow group-hover:bg-blue-800 transition-all">
-              <p class="text-blue-950 group-hover:text-white pb-4">
-                Lesson 3
-              </p>
-              <h3 class="text-blue-900 text-3xl h-24 group-hover:text-white">
-                WHERE Query
-              </h3>
-              <p class="text-lg group-hover:text-white">Learn to answer questions with data to solve challenging
-                problems.</p>
-              <p class="text-lg group-hover:text-white font-medium pt-4">Start Now</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="comparisonoperators.html" target="_blank" class="group">
-            <div class="bg-white rounded-xl p-8 shadow group-hover:bg-blue-800 transition-all">
-              <p class="text-blue-950 group-hover:text-white pb-4">
-                Lesson 4
-              </p>
-              <h3 class="text-blue-900 text-3xl h-24 group-hover:text-white">
-                Comparison Operators
-              </h3>
-              <p class="text-lg group-hover:text-white">Learn to answer questions with data to solve challenging
-                problems.</p>
-              <p class="text-lg group-hover:text-white font-medium pt-4">Start Now</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="logicaloperators.html" target="_blank" class="group">
-            <div class="bg-white rounded-xl p-8 shadow group-hover:bg-blue-800 transition-all">
-              <p class="text-blue-950 group-hover:text-white pb-4">
-                Lesson 5
-              </p>
-              <h3 class="text-blue-900 text-3xl h-24 group-hover:text-white">
-                Logical Operators
-              </h3>
-              <p class="text-lg group-hover:text-white">Learn to answer questions with data to solve challenging
-                problems.</p>
-              <p class="text-lg group-hover:text-white font-medium pt-4">Start Now</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="likeoperators.html" target="_blank" class="group">
-            <div class="bg-white rounded-xl p-8 shadow group-hover:bg-blue-800 transition-all">
-              <p class="text-blue-950 group-hover:text-white pb-4">
-                Lesson 6
-              </p>
-              <h3 class="text-blue-900 text-3xl h-24 group-hover:text-white">
-                LIKE Operators
-              </h3>
-              <p class="text-lg group-hover:text-white">Learn to answer questions with data to solve challenging
-                problems.</p>
-              <p class="text-lg group-hover:text-white font-medium pt-4">Start Now</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="inquery.html" target="_blank" class="group">
-            <div class="bg-white rounded-xl p-8 shadow group-hover:bg-blue-800 transition-all">
-              <p class="text-blue-950 group-hover:text-white pb-4">
-                Lesson 7
-              </p>
-              <h3 class="text-blue-900 text-3xl h-24 group-hover:text-white">
-                IN Query
-              </h3>
-              <p class="text-lg group-hover:text-white">Learn to answer questions with data to solve challenging
-                problems.</p>
-              <p class="text-lg group-hover:text-white font-medium pt-4">Start Now</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="betweenoperators.html" target="_blank" class="group">
-            <div class="bg-white rounded-xl p-8 shadow group-hover:bg-blue-800 transition-all">
-              <p class="text-blue-950 group-hover:text-white pb-4">
-                Lesson 8
-              </p>
-              <h3 class="text-blue-900 text-3xl h-24 group-hover:text-white">
-                BETWEEN Operators
-              </h3>
-              <p class="text-lg group-hover:text-white">Learn to answer questions with data to solve challenging
-                problems.</p>
-              <p class="text-lg group-hover:text-white font-medium pt-4">Start Now</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="isnulloperator.html" target="_blank" class="group">
-            <div class="bg-white rounded-xl p-8 shadow group-hover:bg-blue-800 transition-all">
-              <p class="text-blue-950 group-hover:text-white pb-4">
-                Lesson 9
-              </p>
-              <h3 class="text-blue-900 text-3xl h-24 group-hover:text-white">
-                IS NULL Operator
-              </h3>
-              <p class="text-lg group-hover:text-white">Learn to answer questions with data to solve challenging
-                problems.</p>
-              <p class="text-lg group-hover:text-white font-medium pt-4">Start Now</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="andoperators.html" target="_blank" class="group">
-            <div class="bg-white rounded-xl p-8 shadow group-hover:bg-blue-800 transition-all">
-              <p class="text-blue-950 group-hover:text-white pb-4">
-                Lesson 10
-              </p>
-              <h3 class="text-blue-900 text-3xl h-24 group-hover:text-white">
-                AND Operators
-              </h3>
-              <p class="text-lg group-hover:text-white">Learn to answer questions with data to solve challenging
-                problems.</p>
-              <p class="text-lg group-hover:text-white font-medium pt-4">Start Now</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="oroperators.html" target="_blank" class="group">
-            <div class="bg-white rounded-xl p-8 shadow group-hover:bg-blue-800 transition-all">
-              <p class="text-blue-950 group-hover:text-white pb-4">
-                Lesson 11
-              </p>
-              <h3 class="text-blue-900 text-3xl h-24 group-hover:text-white">
-                OR Operators
-              </h3>
-              <p class="text-lg group-hover:text-white">Learn to answer questions with data to solve challenging
-                problems.</p>
-              <p class="text-lg group-hover:text-white font-medium pt-4">Start Now</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="notoperators.html" target="_blank" class="group">
-            <div class="bg-white rounded-xl p-8 shadow group-hover:bg-blue-800 transition-all">
-              <p class="text-blue-950 group-hover:text-white pb-4">
-                Lesson 12
-              </p>
-              <h3 class="text-blue-900 text-3xl h-24 group-hover:text-white">
-                NOT Operators
-              </h3>
-              <p class="text-lg group-hover:text-white">Learn to answer questions with data to solve challenging
-                problems.</p>
-              <p class="text-lg group-hover:text-white font-medium pt-4">Start Now</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="orderby.html" target="_blank" class="group">
-            <div class="bg-white rounded-xl p-8 shadow group-hover:bg-blue-800 transition-all">
-              <p class="text-blue-950 group-hover:text-white pb-4">
-                Lesson 13
-              </p>
-              <h3 class="text-blue-900 text-3xl h-24 group-hover:text-white">
-                ORDER BY
-              </h3>
-              <p class="text-lg group-hover:text-white">Learn to answer questions with data to solve challenging
-                problems.</p>
-              <p class="text-lg group-hover:text-white font-medium pt-4">Start Now</p>
-            </div>
-          </a>
-        </li>
-      </ul>
+    <div class="mt-28 mb-10">
+      <h2 id="basic" class="md:text-center md:text-5xl text-3xl text-blue-900">
+        Basic SQL
+      </h2>
     </div>
+    <!-- Grid Cards -->
+    <ul class="grid md:grid-cols-3 md:gap-x-5 md:gap-y-10 gap-y-4">
+      <!-- Introduction -->
+      <li>
+        <a href="intro.html" target="_blank" class="group">
+          <div class="bg-white rounded-xl p-4 md:p-8 shadow group-hover:bg-blue-800 transition-all h-fit ">
+            <p class="text-blue-950 uppercase text-[10px] md:text-xs font-medium group-hover:text-white pb-4 ">
+              Introduction</p>
+            <h3
+              class="text-blue-900 text-xl md:text-3xl h-10 md:h-24 group-hover:text-white text-clip overflow-hidden line-clamp-2">
+              Introduction to SQL
+            </h3>
+            <p class="group-hover:text-white md:text-lg text-base line-clamp-2">Learn to answer
+              questions with data to solve challenging
+              problems.</p>
+            <p class="text-md md:text-lg font-medium pt-2 md:pt-4 group-hover:text-white">Start Now</p>
+          </div>
+        </a>
+      </li>
+      <!-- Lesson 1 SELECT Query -->
+      <li>
+        <a href="selectquery.html" target="_blank" class="group">
+          <div class="bg-white rounded-xl p-4 md:p-8 shadow group-hover:bg-blue-800 transition-all h-fit ">
+            <p class="text-blue-950 uppercase text-[10px] md:text-xs font-medium group-hover:text-white pb-4 ">
+              Lesson 1</p>
+            <h3
+              class="text-blue-900 text-xl md:text-3xl h-10 md:h-24 group-hover:text-white text-clip overflow-hidden line-clamp-2">
+              SELECT Query
+            </h3>
+            <p class="group-hover:text-white md:text-lg text-base line-clamp-2">Learn to answer
+              questions with data to solve challenging
+              problems.</p>
+            <p class="text-md md:text-lg font-medium pt-2 md:pt-4 group-hover:text-white">Start Now</p>
+          </div>
+        </a>
+      </li>
+      <!-- Lesson 2 LIMIT Query -->
+      <li>
+        <a href="limitquery.html" target="_blank" class="group">
+          <div class="bg-white rounded-xl p-4 md:p-8 shadow group-hover:bg-blue-800 transition-all h-fit ">
+            <p class="text-blue-950 uppercase text-[10px] md:text-xs font-medium group-hover:text-white pb-4 ">
+              Lesson 2</p>
+            <h3
+              class="text-blue-900 text-xl md:text-3xl h-10 md:h-24 group-hover:text-white text-clip overflow-hidden line-clamp-2">
+              LIMIT Query
+            </h3>
+            <p class="group-hover:text-white md:text-lg text-base line-clamp-2">Learn to answer
+              questions with data to solve challenging
+              problems.</p>
+            <p class="text-md md:text-lg font-medium pt-2 md:pt-4 group-hover:text-white">Start Now</p>
+          </div>
+        </a>
+      </li>
+      <!-- Lesson 3 WHERE Query -->
+      <li>
+        <a href="wherequery.html" target="_blank" class="group">
+          <div class="bg-white rounded-xl p-4 md:p-8 shadow group-hover:bg-blue-800 transition-all h-fit ">
+            <p class="text-blue-950 uppercase text-[10px] md:text-xs font-medium group-hover:text-white pb-4 ">
+              Lesson 3</p>
+            <h3
+              class="text-blue-900 text-xl md:text-3xl h-10 md:h-24 group-hover:text-white text-clip overflow-hidden line-clamp-2">
+              WHERE Query
+            </h3>
+            <p class="group-hover:text-white md:text-lg text-base line-clamp-2">Learn to answer
+              questions with data to solve challenging
+              problems.</p>
+            <p class="text-md md:text-lg font-medium pt-2 md:pt-4 group-hover:text-white">Start Now</p>
+          </div>
+        </a>
+      </li>
+      <!-- Lesson 4 Comparison Operators -->
+      <li>
+        <a href="comparisonoperators.html" target="_blank" class="group">
+          <div class="bg-white rounded-xl p-4 md:p-8 shadow group-hover:bg-blue-800 transition-all h-fit ">
+            <p class="text-blue-950 uppercase text-[10px] md:text-xs font-medium group-hover:text-white pb-4 ">
+              Lesson 4</p>
+            <h3
+              class="text-blue-900 text-xl md:text-3xl h-10 md:h-24 group-hover:text-white text-clip overflow-hidden line-clamp-2">
+              Comparison Operators
+            </h3>
+            <p class="group-hover:text-white md:text-lg text-base line-clamp-2">Learn to answer
+              questions with data to solve challenging
+              problems.</p>
+            <p class="text-md md:text-lg font-medium pt-2 md:pt-4 group-hover:text-white">Start Now</p>
+          </div>
+        </a>
+      </li>
+      <!-- Lesson 5 Logical Operators -->
+      <li>
+        <a href="logicaloperators.html" target="_blank" class="group">
+          <div class="bg-white rounded-xl p-4 md:p-8 shadow group-hover:bg-blue-800 transition-all h-fit ">
+            <p class="text-blue-950 uppercase text-[10px] md:text-xs font-medium group-hover:text-white pb-4 ">
+              Lesson 5</p>
+            <h3
+              class="text-blue-900 text-xl md:text-3xl h-10 md:h-24 group-hover:text-white text-clip overflow-hidden line-clamp-2">
+              Logical Operators
+            </h3>
+            <p class="group-hover:text-white md:text-lg text-base line-clamp-2">Learn to answer
+              questions with data to solve challenging
+              problems.</p>
+            <p class="text-md md:text-lg font-medium pt-2 md:pt-4 group-hover:text-white">Start Now</p>
+          </div>
+        </a>
+      </li>
+      <!-- Lesson 6 LIKE Operators -->
+      <li>
+        <a href="likeoperators.html" target="_blank" class="group">
+          <div class="bg-white rounded-xl p-4 md:p-8 shadow group-hover:bg-blue-800 transition-all h-fit ">
+            <p class="text-blue-950 uppercase text-[10px] md:text-xs font-medium group-hover:text-white pb-4 ">
+              Lesson 6</p>
+            <h3
+              class="text-blue-900 text-xl md:text-3xl h-10 md:h-24 group-hover:text-white text-clip overflow-hidden line-clamp-2">
+              LIKE Operators
+            </h3>
+            <p class="group-hover:text-white md:text-lg text-base line-clamp-2">Learn to answer
+              questions with data to solve challenging
+              problems.</p>
+            <p class="text-md md:text-lg font-medium pt-2 md:pt-4 group-hover:text-white">Start Now</p>
+          </div>
+        </a>
+      </li>
+      <!-- Lesson 7 IN Query -->
+      <li>
+        <a href="inquery.html" target="_blank" class="group">
+          <div class="bg-white rounded-xl p-4 md:p-8 shadow group-hover:bg-blue-800 transition-all h-fit ">
+            <p class="text-blue-950 uppercase text-[10px] md:text-xs font-medium group-hover:text-white pb-4 ">
+              Lesson 7</p>
+            <h3
+              class="text-blue-900 text-xl md:text-3xl h-10 md:h-24 group-hover:text-white text-clip overflow-hidden line-clamp-2">
+              IN Query
+            </h3>
+            <p class="group-hover:text-white md:text-lg text-base line-clamp-2">Learn to answer
+              questions with data to solve challenging
+              problems.</p>
+            <p class="text-md md:text-lg font-medium pt-2 md:pt-4 group-hover:text-white">Start Now</p>
+          </div>
+        </a>
+      </li>
+      <!-- Lesson 8 BETWEEN Operators -->
+      <li>
+        <a href="betweenoperators.html" target="_blank" class="group">
+          <div class="bg-white rounded-xl p-4 md:p-8 shadow group-hover:bg-blue-800 transition-all h-fit ">
+            <p class="text-blue-950 uppercase text-[10px] md:text-xs font-medium group-hover:text-white pb-4 ">
+              Lesson 8</p>
+            <h3
+              class="text-blue-900 text-xl md:text-3xl h-10 md:h-24 group-hover:text-white text-clip overflow-hidden line-clamp-2">
+              BETWEEN Operators
+            </h3>
+            <p class="group-hover:text-white md:text-lg text-base line-clamp-2">Learn to answer
+              questions with data to solve challenging
+              problems.</p>
+            <p class="text-md md:text-lg font-medium pt-2 md:pt-4 group-hover:text-white">Start Now</p>
+          </div>
+        </a>
+      </li>
+      <!-- Lesson 9 IS NULL Operators -->
+      <li>
+        <a href="isnulloperator.html" target="_blank" class="group">
+          <div class="bg-white rounded-xl p-4 md:p-8 shadow group-hover:bg-blue-800 transition-all h-fit ">
+            <p class="text-blue-950 uppercase text-[10px] md:text-xs font-medium group-hover:text-white pb-4 ">
+              Lesson 9</p>
+            <h3
+              class="text-blue-900 text-xl md:text-3xl h-10 md:h-24 group-hover:text-white text-clip overflow-hidden line-clamp-2">
+              IS NULL Operators
+            </h3>
+            <p class="group-hover:text-white md:text-lg text-base line-clamp-2">Learn to answer
+              questions with data to solve challenging
+              problems.</p>
+            <p class="text-md md:text-lg font-medium pt-2 md:pt-4 group-hover:text-white">Start Now</p>
+          </div>
+        </a>
+      </li>
+      <!-- Lesson 10 AND Operators -->
+      <li>
+        <a href="andoperators.html" target="_blank" class="group">
+          <div class="bg-white rounded-xl p-4 md:p-8 shadow group-hover:bg-blue-800 transition-all h-fit ">
+            <p class="text-blue-950 uppercase text-[10px] md:text-xs font-medium group-hover:text-white pb-4 ">
+              Lesson 10</p>
+            <h3
+              class="text-blue-900 text-xl md:text-3xl h-10 md:h-24 group-hover:text-white text-clip overflow-hidden line-clamp-2">
+              AND Operators
+            </h3>
+            <p class="group-hover:text-white md:text-lg text-base line-clamp-2">Learn to answer
+              questions with data to solve challenging
+              problems.</p>
+            <p class="text-md md:text-lg font-medium pt-2 md:pt-4 group-hover:text-white">Start Now</p>
+          </div>
+        </a>
+      </li>
+      <!-- Lesson 11 OR Operators -->
+      <li>
+        <a href="oroperators.html" target="_blank" class="group">
+          <div class="bg-white rounded-xl p-4 md:p-8 shadow group-hover:bg-blue-800 transition-all h-fit ">
+            <p class="text-blue-950 uppercase text-[10px] md:text-xs font-medium group-hover:text-white pb-4 ">
+              Lesson 11</p>
+            <h3
+              class="text-blue-900 text-xl md:text-3xl h-10 md:h-24 group-hover:text-white text-clip overflow-hidden line-clamp-2">
+              OR Operators
+            </h3>
+            <p class="group-hover:text-white md:text-lg text-base line-clamp-2">Learn to answer
+              questions with data to solve challenging
+              problems.</p>
+            <p class="text-md md:text-lg font-medium pt-2 md:pt-4 group-hover:text-white">Start Now</p>
+          </div>
+        </a>
+      </li>
+      <!-- Lesson 12 NOT Operators -->
+      <li>
+        <a href="notoperators.html" target="_blank" class="group">
+          <div class="bg-white rounded-xl p-4 md:p-8 shadow group-hover:bg-blue-800 transition-all h-fit ">
+            <p class="text-blue-950 uppercase text-[10px] md:text-xs font-medium group-hover:text-white pb-4 ">
+              Lesson 12</p>
+            <h3
+              class="text-blue-900 text-xl md:text-3xl h-10 md:h-24 group-hover:text-white text-clip overflow-hidden line-clamp-2">
+              NOT Operators
+            </h3>
+            <p class="group-hover:text-white md:text-lg text-base line-clamp-2">Learn to answer
+              questions with data to solve challenging
+              problems.</p>
+            <p class="text-md md:text-lg font-medium pt-2 md:pt-4 group-hover:text-white">Start Now</p>
+          </div>
+        </a>
+      </li>
+      <!-- Lesson 13 ORDER BY -->
+      <li>
+        <a href="orderby.html" target="_blank" class="group">
+          <div class="bg-white rounded-xl p-4 md:p-8 shadow group-hover:bg-blue-800 transition-all h-fit ">
+            <p class="text-blue-950 uppercase text-[10px] md:text-xs font-medium group-hover:text-white pb-4 ">
+              Lesson 13</p>
+            <h3
+              class="text-blue-900 text-xl md:text-3xl h-10 md:h-24 group-hover:text-white text-clip overflow-hidden line-clamp-2">
+              ORDER BY
+            </h3>
+            <p class="group-hover:text-white md:text-lg text-base line-clamp-2">Learn to answer
+              questions with data to solve challenging
+              problems.</p>
+            <p class="text-md md:text-lg font-medium pt-2 md:pt-4 group-hover:text-white">Start Now</p>
+          </div>
+        </a>
+      </li>
+    </ul>
     <!-- Footer -->
     <footer>
       <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
